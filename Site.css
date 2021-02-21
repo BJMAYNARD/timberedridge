@@ -1,0 +1,174 @@
+/*
+    This is the custom font used across the entire site.
+*/
+
+font-face {
+  font-family: "PT Sans", sans-serif;
+}
+
+/*
+    This is the Body Formating.
+*/
+video {
+  width: 100%;
+  opacity: 0.5;
+}
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  background-color: rgb(7, 7, 82);
+  font-family: "PT Sans";
+  text-align: center;
+  font-size: large;
+  min-height: 100%;
+  position: center;
+  color: white;
+}
+
+body > div {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+.calevents {
+  text-align: center;
+}
+body > div > h1 {
+  font-size: xx-large;
+  font-style: italic;
+}
+body > div > h3 {
+  color: red;
+}
+.churchCovenant {
+  font-size: x-large;
+  font-style: italic;
+  font-style: bold;
+  color: WHITE;
+}
+
+body > div > p {
+  font-size: normal;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 500px auto;
+  grid-gap: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.prayerlist > ul {
+  display: inline-flex;
+  flex: 1 1 0;
+}
+.missionaries > ul {
+  display: inline-flex;
+  flex: 1 1 0;
+}
+.grid-container > div {
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  float: center;
+}
+.Background {
+  grid-row: 1 / span 2;
+  background-image: url("/img/signinfront.jpg");
+}
+.Times {
+  grid-row: 1 / span 1;
+}
+.Picture {
+  grid-row: 1 / span 1;
+}
+
+.liveVideo {
+  display: center;
+  font-size: xx-large;
+  color: red;
+}
+.comingSoon {
+  display: center;
+  font-size: xx-large;
+  color: red;
+}
+/*
+    This is the Header and Nav Bar.
+*/
+header h1 {
+  font-style: italic;
+  font-style: bold;
+  color: darkred;
+  font-size: xxx-large;
+}
+.H2 {
+  font-size: xxx-large;
+  font-style: italic;
+  font-style: bold;
+}
+h3 {
+  color: white;
+}
+.MB {
+  color: red;
+}
+.WWBI {
+  color: red;
+}
+.OCC {
+  color: red;
+}
+.navbar {
+  display: flex;
+  background-color: #000000;
+  position: relative;
+  overflow: auto;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  padding: 20px;
+  font-size: 20px;
+  color: #b22222;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: #000000;
+}
+
+.navbar a.active {
+  background-color: #0ddceb;
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/*
+    This is the Footer
+*/
+
+.contact {
+  color: white;
+  text-align: center;
+  position: bottom;
+  bottom: 0;
+}
