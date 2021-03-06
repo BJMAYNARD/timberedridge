@@ -77,6 +77,11 @@ body > div > p {
   font-size: 30px;
   float: center;
 }
+.verselist > ul {
+  font-size: 18px;
+  display: inline-flex;
+  flex: 1 1 0;
+}
 .Background {
   grid-row: 1 / span 2;
   background-image: url("/img/signinfront.jpg");
